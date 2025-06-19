@@ -1,0 +1,90 @@
+{
+  "name": "@andrebuzeli/github-advanced-mcp",
+  "version": "2.1.1",
+  "description": "Advanced GitHub MCP Server - 37 REAL API tools (NO SIMULATION) for seamless GitHub integration with full functionality",
+  "keywords": [
+    "mcp",
+    "github",
+    "model-context-protocol",
+    "automation",
+    "api",
+    "advanced",
+    "mcp-server",
+    "github-integration",
+    "optimized",
+    "consolidated-tools",
+    "versioning",
+    "releases",
+    "real-api",
+    "no-simulation",
+    "octokit"
+  ],
+  "author": {
+    "name": "Andre Buzeli",
+    "email": "contato@andrebuzeli.com"
+  },
+  "contributors": [
+    {
+      "name": "GitHub Team",
+      "url": "https://github.com/github"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Andre-Buzeli/github-mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andre-Buzeli/github-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Andre-Buzeli/github-mcp-server/issues"
+  },
+  "main": "index.js",
+  "bin": {
+    "github-advanced-mcp": "./index.js"
+  },
+  "files": [
+    "bin/",
+    "docs/",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "index.js",
+    "download-binary.js",
+    "mcp-standalone.js",
+    "mcp-optimized.js"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Tests run via Go toolchain\"",
+    "prestart": "echo \"Using Node.js only mode - no binary download needed\""
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "https": "^1.0.0",
+    "tar": "^7.4.3",
+    "yauzl": "^3.0.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/andrebuzeli"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
